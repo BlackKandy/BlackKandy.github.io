@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio image 1">
-  <rect width="1200" height="800" fill="#0f0f0f" />
-  <rect x="40" y="40" width="1120" height="720" rx="8" fill="#121212" stroke="#222" />
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" fill="#9aa0a6">Event Photography — Live performance</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio 1 - studio portrait">
+  <defs>
+    <linearGradient id="p1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#141416"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d08bff"/>
+      <stop offset="100%" stop-color="#6f1a82"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#p1)" rx="12" />
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="480" height="680" rx="10" fill="#0f0f10"/>
+    <rect x="520" y="40" width="560" height="520" rx="8" fill="#1a1a1a"/>
+    <circle cx="740" cy="300" r="180" fill="url(#accent)" opacity="0.08"/>
+    <text x="40" y="640" fill="#a9a9ad" font-family="Helvetica, Arial, sans-serif" font-size="20">Studio portrait — singer at microphone</text>
+  </g>
 </svg>

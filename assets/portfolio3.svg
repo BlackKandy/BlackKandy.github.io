@@ -1,8 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio image 3">
-  <rect width="1200" height="800" fill="#0b0b0b" />
-  <g fill="#6f1a82">
-    <circle cx="200" cy="200" r="120" />
-    <circle cx="1000" cy="600" r="120" />
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio 3 - behind the scenes">
+  <defs>
+    <linearGradient id="p3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#131315"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b36bff"/>
+      <stop offset="100%" stop-color="#6f1a82"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#p3)" rx="12" />
+  <g transform="translate(70,70)">
+    <rect x="0" y="0" width="480" height="620" rx="8" fill="#0f0f10"/>
+    <rect x="540" y="0" width="520" height="420" rx="8" fill="#141416"/>
+    <rect x="540" y="440" width="520" height="200" rx="6" fill="#0f0f10"/>
+    <text x="40" y="560" fill="#a9a9ad" font-family="Helvetica, Arial, sans-serif" font-size="20">Behind the scenes — mixing console</text>
   </g>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" fill="#efefef">Studio Session — Music production</text>
 </svg>
