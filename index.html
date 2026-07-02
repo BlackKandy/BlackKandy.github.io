@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>BLACK KANDY MEDIA — Photography • Videography • Music</title>
-  <meta name="description" content="BLACK KANDY MEDIA — Photography, Videography, Music Production, Artist Management, Event Coordination, Branding & Strategic Planning. Based in Benoni, South Africa. Open 24/7." />
+  <meta name="description" content="BLACK KANDY MEDIA — Photography, Videography, Music Production, Artist Management, Event Coordination, Branding & Strategic Planning. Based in Benoni, South Africa." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 </head>
@@ -28,6 +28,13 @@
 
   <main>
     <section class="hero">
+      <!-- Responsive hero background: desktop/tablet/mobile -->
+      <picture class="hero-media" aria-hidden="true">
+        <source media="(min-width:1200px)" srcset="assets/hero-desktop.svg">
+        <source media="(min-width:700px)" srcset="assets/hero-tablet.svg">
+        <img src="assets/hero-mobile.svg" alt="" />
+      </picture>
+
       <div class="container hero-inner">
         <h2 class="hero-title">We craft visuals, music & brands that move people.</h2>
         <p class="lead">Photography • Videography • Music Production • Artist Management • Events • Branding • Strategic Planning</p>
