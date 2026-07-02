@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio image 3">
+  <rect width="1200" height="800" fill="#0b0b0b" />
+  <g fill="#6f1a82">
+    <circle cx="200" cy="200" r="120" />
+    <circle cx="1000" cy="600" r="120" />
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" fill="#efefef">Studio Session — Music production</text>
+</svg>

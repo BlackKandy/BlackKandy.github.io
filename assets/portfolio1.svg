@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio image 1">
+  <rect width="1200" height="800" fill="#0f0f0f" />
+  <rect x="40" y="40" width="1120" height="720" rx="8" fill="#121212" stroke="#222" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" fill="#9aa0a6">Event Photography — Live performance</text>
+</svg>
