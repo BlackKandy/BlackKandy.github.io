@@ -1,30 +1,60 @@
-<!-- Hero background - desktop (SVG approximation of the provided studio photo in monochrome) -->
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="700" viewBox="0 0 1920 700" preserveAspectRatio="xMidYMid slice">
+<!-- Recreated photographic hero - desktop (higher-fidelity SVG approximation) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="700" viewBox="0 0 1920 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Studio singer hero">
   <defs>
-    <linearGradient id="vign" x1="0" x2="1">
-      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
-      <stop offset="50%" stop-color="rgba(0,0,0,0.25)"/>
-      <stop offset="100%" stop-color="rgba(0,0,0,0.6)"/>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#111"/>
     </linearGradient>
-    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="0.6"/>
+    <radialGradient id="spot" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-40%" y="-40%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.7"/>
     </filter>
   </defs>
-  <rect width="1920" height="700" fill="#0b0b0b" />
-  <!-- Left singer silhouette -->
-  <g transform="translate(60,60)">
-    <ellipse cx="160" cy="320" rx="120" ry="220" fill="#111"/>
-    <ellipse cx="160" cy="200" rx="80" ry="90" fill="#0f0f0f"/>
+
+  <!-- background base -->
+  <rect width="1920" height="700" fill="url(#g1)" />
+
+  <!-- soft studio spot -->
+  <rect width="1920" height="700" fill="url(#spot)" />
+
+  <!-- left singer silhouette with mic and stand -->
+  <g transform="translate(90,80)" opacity="0.98">
+    <path d="M80 420 C60 320 80 260 140 220 C180 200 220 200 260 220 C300 240 320 300 320 360 L80 420 Z" fill="#0e0e0e"/>
+    <ellipse cx="170" cy="155" rx="44" ry="52" fill="#121212"/>
+    <rect x="40" y="60" width="40" height="320" rx="6" fill="#0b0b0b" transform="rotate(-6 60 220)"/>
+    <circle cx="110" cy="120" r="6" fill="#2a2a2a"/>
   </g>
-  <!-- Center close-up face suggestion -->
-  <g transform="translate(640,40)">
-    <rect x="0" y="0" width="640" height="520" rx="6" fill="#121212"/>
-    <circle cx="320" cy="240" r="180" fill="#1a1a1a" opacity="0.9"/>
+
+  <!-- center close-up: face & headphones suggestion -->
+  <g transform="translate(660,40)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="600" height="520" rx="8" fill="#121212"/>
+    <!-- cheek/face highlight -->
+    <ellipse cx="320" cy="240" rx="170" ry="200" fill="#1a1a1a"/>
+    <ellipse cx="310" cy="210" rx="80" ry="90" fill="#222"/>
+    <!-- headphones arc -->
+    <path d="M160 80 C200 20 460 20 500 80" stroke="#0b0b0b" stroke-width="36" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <!-- mic pop filter faint -->
+    <circle cx="420" cy="300" r="54" fill="#0b0b0b" opacity="0.9"/>
+    <rect x="330" y="300" width="220" height="12" rx="6" fill="#0b0b0b" opacity="0.9" transform="rotate(10 440 306)"/>
   </g>
-  <!-- Right backlit silhouette -->
-  <g transform="translate(1360,80)">
-    <path d="M100 400 C150 250 220 180 260 130 C300 80 360 60 420 120 C480 180 520 300 520 360 L100 400 Z" fill="#0e0e0e"/>
+
+  <!-- right silhouette backlit -->
+  <g transform="translate(1380,70)">
+    <path d="M40 420 C80 260 140 180 200 120 C260 60 320 50 380 110 C440 170 480 300 480 360 L40 420 Z" fill="#0e0e0e"/>
+    <!-- small stage lights hint -->
+    <circle cx="440" cy="40" r="18" fill="#ffffff" opacity="0.06"/>
+    <circle cx="480" cy="24" r="10" fill="#ffffff" opacity="0.04"/>
   </g>
-  <!-- soft vignette -->
-  <rect width="1920" height="700" fill="url(#vign)" />
+
+  <!-- subtle grain overlay to emulate photo texture -->
+  <g opacity="0.03">
+    <rect width="1920" height="700" fill="url(#g1)"/>
+  </g>
+
+  <!-- dark vignette -->
+  <rect width="1920" height="700" fill="rgba(0,0,0,0.45)" />
 </svg>
