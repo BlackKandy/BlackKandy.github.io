@@ -1,19 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio 2 - live concert">
-  <defs>
-    <linearGradient id="p2" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0b0b0b"/>
-      <stop offset="100%" stop-color="#121212"/>
-    </linearGradient>
-    <linearGradient id="light" x1="0" x2="1">
-      <stop offset="0%" stop-color="#fff" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0.02"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="800" fill="url(#p2)" rx="12" />
-  <g transform="translate(60,40)">
-    <rect x="0" y="0" width="1080" height="620" rx="8" fill="#0f0f10"/>
-    <rect x="60" y="80" width="960" height="420" rx="6" fill="#141416"/>
-    <ellipse cx="960" cy="60" rx="80" ry="36" fill="url(#light)"/>
-    <text x="80" y="540" fill="#a9a9ad" font-family="Helvetica, Arial, sans-serif" font-size="20">Live concert — stage lights and crowd</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Portfolio 2 - live performance">
+  <rect width="800" height="500" fill="#fff" stroke="#f1f3f5" />
+  <ellipse cx="700" cy="80" rx="100" ry="36" fill="#ff6b6b" opacity="0.10" />
+  <text x="24" y="470" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="16">Live performance</text>
 </svg>

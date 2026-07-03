@@ -1,19 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio 6 - studio session">
-  <defs>
-    <linearGradient id="p6" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0b0b0b"/>
-      <stop offset="100%" stop-color="#141415"/>
-    </linearGradient>
-    <linearGradient id="spark" x1="0" x2="1">
-      <stop offset="0%" stop-color="#e6b3ff"/>
-      <stop offset="100%" stop-color="#6f1a82"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="800" fill="url(#p6)" rx="12" />
-  <g transform="translate(80,60)">
-    <rect x="0" y="0" width="480" height="620" rx="8" fill="#0f0f10"/>
-    <rect x="540" y="0" width="520" height="520" rx="8" fill="#141416"/>
-    <rect x="540" y="540" width="520" height="120" rx="6" fill="#0f0f10"/>
-    <text x="40" y="560" fill="#a9a9ad" font-family="Helvetica, Arial, sans-serif" font-size="20">Studio session — producer at work</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Portfolio 6 - studio session">
+  <rect width="800" height="500" fill="#fff" stroke="#f1f3f5" />
+  <rect x="200" y="300" width="120" height="60" rx="6" fill="#e6eef0" />
+  <text x="24" y="470" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="16">Studio session</text>
 </svg>

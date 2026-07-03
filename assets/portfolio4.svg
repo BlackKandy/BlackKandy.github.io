@@ -1,19 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Portfolio 4 - cinematic portrait">
-  <defs>
-    <linearGradient id="p4" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0b0b0b"/>
-      <stop offset="100%" stop-color="#151516"/>
-    </linearGradient>
-    <linearGradient id="rim" x1="0" x2="1">
-      <stop offset="0%" stop-color="#cda1ff"/>
-      <stop offset="100%" stop-color="#6f1a82"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="800" fill="url(#p4)" rx="12" />
-  <g transform="translate(100,60)">
-    <rect x="0" y="0" width="480" height="680" rx="10" fill="#0f0f10"/>
-    <rect x="520" y="40" width="560" height="520" rx="8" fill="#1a1a1a"/>
-    <circle cx="780" cy="260" r="140" fill="url(#rim)" opacity="0.09"/>
-    <text x="40" y="640" fill="#a9a9ad" font-family="Helvetica, Arial, sans-serif" font-size="20">Cinematic still — artist portrait with purple rim light</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Portfolio 4 - cinematic portrait">
+  <rect width="800" height="500" fill="#fff" stroke="#f1f3f5" />
+  <circle cx="520" cy="200" r="120" fill="#0ea5a0" opacity="0.10" />
+  <text x="24" y="470" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="16">Cinematic portrait</text>
 </svg>

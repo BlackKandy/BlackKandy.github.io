@@ -1,6 +1,95 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Black Kandy Media</title><link rel="stylesheet" href="assets/css/style.css"></head>
-<body><header><h1>BLACK KANDY MEDIA</h1><nav><a href="#">News</a><a href="#">Music</a><a href="#">Sports</a><a href="#">Business</a></nav></header>
-<section class='hero'><h2>The Future of African Media</h2><p>Breaking stories. Original voices. Premium storytelling.</p><button>Explore</button></section>
-<section><h3>Featured Stories</h3><div class='cards'><article>Story One</article><article>Story Two</article><article>Story Three</article></div></section>
-<footer>© 2026 Black Kandy Media</footer><script src="assets/js/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Black Kandy — Rebuilt Portfolio</title>
+  <meta name="description" content="Black Kandy — Photography, Videography, Music Production. Rebuilt site with clean white layout and new accent colors." />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="assets/logo.svg" alt="Black Kandy logo" class="logo">
+        <span class="brand-name">Black Kandy</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Visuals & Sound, Made Deliberately</h1>
+          <p class="lede">Photography, videography and music production with a clean modern aesthetic. Based in Benoni, South Africa.</p>
+          <p class="actions">
+            <a class="btn primary" href="#contact">Book a session</a>
+            <a class="btn outline" href="#work">See work</a>
+          </p>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero.svg" alt="Studio lights and camera" />
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="container section">
+      <h2>Selected Work</h2>
+      <div class="gallery">
+        <figure>
+          <a href="#"><img src="assets/portfolio1.svg" alt="Studio portrait" loading="lazy"></a>
+          <figcaption>Studio portrait</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/portfolio2.svg" alt="Live performance" loading="lazy"></a>
+          <figcaption>Live performance</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/portfolio3.svg" alt="Behind the scenes" loading="lazy"></a>
+          <figcaption>Behind the scenes</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/portfolio4.svg" alt="Cinematic portrait" loading="lazy"></a>
+          <figcaption>Cinematic portrait</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/portfolio5.svg" alt="DJ set" loading="lazy"></a>
+          <figcaption>DJ set</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/portfolio6.svg" alt="Studio session" loading="lazy"></a>
+          <figcaption>Studio session</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>Black Kandy is a creative studio focusing on photography, videography and music production. We craft bold visuals and clean sound for artists and brands.</p>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:blackkandy360@gmail.com">blackkandy360@gmail.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/27691386950">+27 69 138 6950</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Black Kandy — Benoni, South Africa</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

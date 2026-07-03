@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Hero placeholder - studio">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f7faf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)" />
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="440" height="680" rx="10" fill="#ffffff" stroke="#eef2f4" />
+    <rect x="480" y="40" width="640" height="520" rx="10" fill="#f8fafb" stroke="#eef2f4" />
+    <circle cx="920" cy="300" r="160" fill="#ff6b6b" opacity="0.08"/>
+    <text x="40" y="740" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="18">Studio lights and camera</text>
+  </g>
+</svg>
