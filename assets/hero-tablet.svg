@@ -1,4 +1,3 @@
-<!-- Recreated photographic hero - tablet approximation -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Studio singer hero tablet">
   <defs>
     <linearGradient id="tg" x1="0" x2="1">
@@ -6,7 +5,7 @@
       <stop offset="100%" stop-color="#111"/>
     </linearGradient>
     <radialGradient id="tspot" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -14,14 +13,14 @@
   <rect width="1200" height="700" fill="url(#tspot)" />
 
   <g transform="translate(40,60)">
-    <path d="M60 380 C80 280 120 220 180 180 C220 160 260 160 300 180 C340 200 360 260 360 320 L60 380 Z" fill="#0e0e0e"/>
+    <path d="M60 380 C80 280 120 220 180 180 C220 160 260 160 300 180 C340 200 360 260 360 320 L60 380 Z" fill="#161616"/>
   </g>
 
   <g transform="translate(420,60)">
-    <rect x="0" y="0" width="520" height="520" rx="8" fill="#121212"/>
-    <ellipse cx="260" cy="240" rx="150" ry="180" fill="#1a1a1a"/>
-    <path d="M220 80 C280 20 360 20 420 80" stroke="#0b0b0b" stroke-width="28" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <rect x="0" y="0" width="520" height="520" rx="8" fill="#1a1a1a"/>
+    <ellipse cx="260" cy="240" rx="150" ry="180" fill="#222"/>
+    <path d="M220 80 C280 20 360 20 420 80" stroke="#0b0b0b" stroke-width="28" stroke-linecap="round" fill="none" opacity="0.98"/>
   </g>
 
-  <rect width="1200" height="700" fill="rgba(0,0,0,0.36)" />
+  <rect width="1200" height="700" fill="rgba(0,0,0,0.30)" />
 </svg>
