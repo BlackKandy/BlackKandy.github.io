@@ -1,0 +1,5 @@
+<!-- Portfolio 2 - medium (1200x750) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Portfolio 2 medium">
+  <rect width="1200" height="750" fill="#131315"/>
+  <ellipse cx="980" cy="60" rx="80" ry="36" fill="#ffd1ff" opacity="0.06"/>
+</svg>

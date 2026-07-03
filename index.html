@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>BLACK KANDY MEDIA — Photography • Videography • Music</title>
   <meta name="description" content="BLACK KANDY MEDIA — Photography, Videography, Music Production, Artist Management, Event Coordination, Branding & Strategic Planning. Based in Benoni, South Africa." />
+  <!-- Preload hero for better LCP -->
+  <link rel="preload" as="image" href="assets/hero-2560.svg">
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="https://raw.githubusercontent.com/BlackKandy/BlackKandy.github.io/main/assets/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <img src="https://raw.githubusercontent.com/BlackKandy/BlackKandy.github.io/main/assets/logo.svg" alt="BLACK KANDY MEDIA logo" class="logo" />
+        <img src="assets/logo.svg" alt="BLACK KANDY MEDIA logo" class="logo" />
         <div class="brand-text">
           <h1>BLACK KANDY MEDIA</h1>
           <p class="tag">Photography • Videography • Music • Events • Branding</p>
@@ -28,11 +30,11 @@
 
   <main>
     <section class="hero">
-      <!-- Responsive hero background: desktop/tablet/mobile (absolute raw URLs to ensure correct serving) -->
+      <!-- Responsive hero background: desktop/tablet/mobile -->
       <picture class="hero-media" aria-hidden="true">
-        <source media="(min-width:1200px)" srcset="https://raw.githubusercontent.com/BlackKandy/BlackKandy.github.io/main/assets/hero-desktop.svg">
-        <source media="(min-width:700px)" srcset="https://raw.githubusercontent.com/BlackKandy/BlackKandy.github.io/main/assets/hero-tablet.svg">
-        <img src="https://raw.githubusercontent.com/BlackKandy/BlackKandy.github.io/main/assets/hero-mobile.svg" alt="" />
+        <source media="(min-width:1400px)" srcset="assets/hero-2560.svg">
+        <source media="(min-width:900px)" srcset="assets/hero-1600.svg">
+        <img src="assets/hero-900.svg" alt="Studio vocalist in session" />
       </picture>
 
       <div class="container hero-inner">
@@ -81,83 +83,66 @@
 
     <section id="portfolio" class="container portfolio">
       <h3>Portfolio</h3>
-      <p>Examples of our work — click to view full-size. (Generated placeholders below — replace with real photos anytime.)</p>
+      <p>Examples of our work — click to view full-size. High‑resolution generated placeholders are used below and optimized for web.</p>
       <div class="gallery">
         <figure>
-          <!-- visible thumbnail with accent and icon -->
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Studio portrait — singer at microphone">
-            <defs>
-              <linearGradient id="gA" x1="0" x2="1"><stop offset="0%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#2b2b2d"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gA)" rx="12" />
-            <circle cx="840" cy="260" r="160" fill="#6f1a82" opacity="0.12" />
-            <g transform="translate(420,260)" fill="#efeef0">
-              <rect x="-160" y="-100" width="320" height="200" rx="12" opacity="0.95"/>
-              <rect x="-30" y="-40" width="60" height="120" rx="6" fill="#1a1a1a" opacity="0.12"/>
-            </g>
-          </svg>
+          <a href="assets/portfolio1-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio1-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio1-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio1-thumb.svg" alt="Studio portrait — singer at microphone" />
+            </picture>
+          </a>
           <figcaption>Studio portrait — singer at microphone</figcaption>
         </figure>
         <figure>
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Live concert — stage lights and crowd">
-            <defs>
-              <linearGradient id="gB" x1="0" x2="1"><stop offset="0%" stop-color="#151516"/><stop offset="100%" stop-color="#262628"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gB)" rx="12" />
-            <ellipse cx="980" cy="80" rx="140" ry="60" fill="#ffd1ff" opacity="0.08"/>
-            <rect x="180" y="180" width="840" height="280" rx="6" fill="#1e1e1f" opacity="0.95"/>
-          </svg>
+          <a href="assets/portfolio2-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio2-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio2-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio2-thumb.svg" alt="Live concert — stage lights and crowd" />
+            </picture>
+          </a>
           <figcaption>Live concert — stage lights and crowd</figcaption>
         </figure>
         <figure>
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Behind the scenes — mixing console">
-            <defs>
-              <linearGradient id="gC" x1="0" x2="1"><stop offset="0%" stop-color="#0f0f10"/><stop offset="100%" stop-color="#161617"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gC)" rx="12" />
-            <rect x="540" y="40" width="520" height="420" rx="8" fill="#262627"/>
-            <g transform="translate(620,160)" fill="#bfbfc1">
-              <rect x="-240" y="-20" width="48" height="12" rx="3"/>
-              <rect x="-240" y="10" width="24" height="12" rx="3"/>
-              <rect x="-200" y="-20" width="160" height="12" rx="3"/>
-            </g>
-          </svg>
+          <a href="assets/portfolio3-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio3-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio3-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio3-thumb.svg" alt="Behind the scenes — mixing console" />
+            </picture>
+          </a>
           <figcaption>Behind the scenes — mixing console</figcaption>
         </figure>
         <figure>
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Cinematic still — artist portrait with purple rim light">
-            <defs>
-              <linearGradient id="gD" x1="0" x2="1"><stop offset="0%" stop-color="#161516"/><stop offset="100%" stop-color="#222223"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gD)" rx="12" />
-            <circle cx="760" cy="260" r="140" fill="#9b4cff" opacity="0.12" />
-            <rect x="220" y="160" width="520" height="320" rx="8" fill="#212122"/>
-          </svg>
+          <a href="assets/portfolio4-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio4-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio4-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio4-thumb.svg" alt="Cinematic still — artist portrait with purple rim light" />
+            </picture>
+          </a>
           <figcaption>Cinematic still — artist portrait with purple rim light</figcaption>
         </figure>
         <figure>
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Event coverage — DJ performance">
-            <defs>
-              <linearGradient id="gE" x1="0" x2="1"><stop offset="0%" stop-color="#141416"/><stop offset="100%" stop-color="#1d1d1f"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gE)" rx="12" />
-            <circle cx="980" cy="60" r="60" fill="#ffd1ff" opacity="0.08"/>
-            <g transform="translate(120,140)">
-              <rect x="0" y="0" width="220" height="220" rx="8" fill="#202021"/>
-              <rect x="320" y="0" width="220" height="220" rx="8" fill="#202021"/>
-            </g>
-          </svg>
+          <a href="assets/portfolio5-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio5-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio5-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio5-thumb.svg" alt="Event coverage — DJ performance" />
+            </picture>
+          </a>
           <figcaption>Event coverage — DJ performance</figcaption>
         </figure>
         <figure>
-          <svg width="100%" height="220" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Studio session — producer at work">
-            <defs>
-              <linearGradient id="gF" x1="0" x2="1"><stop offset="0%" stop-color="#0f0f10"/><stop offset="100%" stop-color="#181818"/></linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#gF)" rx="12" />
-            <rect x="540" y="540" width="520" height="120" rx="6" fill="#1b1b1c"/>
-            <rect x="120" y="120" width="360" height="240" rx="8" fill="#242425"/>
-          </svg>
+          <a href="assets/portfolio6-2000.svg" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/portfolio6-2000.svg" media="(min-width:1200px)">
+              <source srcset="assets/portfolio6-1200.svg" media="(min-width:700px)">
+              <img loading="lazy" src="assets/portfolio6-thumb.svg" alt="Studio session — producer at work" />
+            </picture>
+          </a>
           <figcaption>Studio session — producer at work</figcaption>
         </figure>
       </div>

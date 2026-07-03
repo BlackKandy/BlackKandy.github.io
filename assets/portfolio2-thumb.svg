@@ -1,0 +1,5 @@
+<!-- Portfolio 2 - thumb (400x250) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-label="Portfolio 2 thumb">
+  <rect width="400" height="250" fill="#121214" rx="8"/>
+  <ellipse cx="360" cy="24" rx="18" ry="8" fill="#ffd1ff" opacity="0.08"/>
+</svg>

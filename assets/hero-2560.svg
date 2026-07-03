@@ -1,0 +1,22 @@
+<!-- High-resolution hero placeholder (2560x900) - cinematic B&W with purple accent -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="900" viewBox="0 0 2560 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Hero placeholder - studio vocalist">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#070708"/>
+      <stop offset="100%" stop-color="#0b0b0c"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="45%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2560" height="900" fill="url(#bg)" />
+  <rect width="2560" height="900" fill="url(#spot)" />
+  <g transform="translate(120,160)">
+    <rect x="0" y="0" width="720" height="560" rx="12" fill="#151515"/>
+    <rect x="920" y="80" width="720" height="560" rx="12" fill="#101010"/>
+    <circle cx="1880" cy="200" r="180" fill="#9b4cff" opacity="0.08"/>
+  </g>
+  <text x="160" y="780" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">Hero placeholder — cinematic studio vocalist</text>
+</svg>

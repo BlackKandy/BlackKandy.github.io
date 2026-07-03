@@ -1,0 +1,6 @@
+<!-- Portfolio 4 - large (2000x1250) cinematic portrait -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1250" viewBox="0 0 2000 1250" role="img" aria-label="Portfolio 4 - cinematic portrait">
+  <rect width="2000" height="1250" fill="#141415"/>
+  <circle cx="1400" cy="380" r="200" fill="#9b4cff" opacity="0.08"/>
+  <text x="80" y="1200" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">Cinematic portrait — 2000×1250</text>
+</svg>

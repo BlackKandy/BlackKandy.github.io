@@ -1,0 +1,5 @@
+<!-- Portfolio 4 - thumb (400x250) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-label="Portfolio 4 thumb">
+  <rect width="400" height="250" fill="#121213" rx="8"/>
+  <circle cx="300" cy="80" r="30" fill="#9b4cff" opacity="0.08"/>
+</svg>

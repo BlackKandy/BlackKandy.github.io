@@ -1,0 +1,5 @@
+<!-- Portfolio 3 - medium (1200x750) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Portfolio 3 medium">
+  <rect width="1200" height="750" fill="#161617"/>
+  <rect x="560" y="40" width="520" height="420" rx="8" fill="#222"/>
+</svg>

@@ -1,0 +1,6 @@
+<!-- Portfolio 1 - medium (1200x750) thumbnail -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Portfolio 1 medium">
+  <rect width="1200" height="750" fill="#101010"/>
+  <circle cx="960" cy="300" r="140" fill="#9b4cff" opacity="0.06"/>
+  <text x="48" y="680" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18">Studio portrait — 1200×750</text>
+</svg>

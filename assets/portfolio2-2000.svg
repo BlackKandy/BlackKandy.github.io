@@ -1,0 +1,6 @@
+<!-- Portfolio 2 - large (2000x1250) live concert placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1250" viewBox="0 0 2000 1250" role="img" aria-label="Portfolio 2 - live concert">
+  <rect width="2000" height="1250" fill="#0f0f10"/>
+  <ellipse cx="1800" cy="120" rx="220" ry="80" fill="#ffd1ff" opacity="0.07"/>
+  <text x="80" y="1200" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">Live concert — 2000×1250</text>
+</svg>

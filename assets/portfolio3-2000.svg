@@ -1,0 +1,6 @@
+<!-- Portfolio 3 - large (2000x1250) behind the scenes -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1250" viewBox="0 0 2000 1250" role="img" aria-label="Portfolio 3 - behind the scenes">
+  <rect width="2000" height="1250" fill="#0f0f10"/>
+  <rect x="560" y="80" width="880" height="520" rx="12" fill="#151515"/>
+  <text x="80" y="1200" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">Behind the scenes — 2000×1250</text>
+</svg>

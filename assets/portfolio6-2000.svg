@@ -1,0 +1,6 @@
+<!-- Portfolio 6 - large (2000x1250) studio session -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1250" viewBox="0 0 2000 1250" role="img" aria-label="Portfolio 6 - studio session">
+  <rect width="2000" height="1250" fill="#141415"/>
+  <rect x="540" y="540" width="920" height="220" rx="8" fill="#1b1b1c"/>
+  <text x="80" y="1200" fill="#a9a9ad" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">Studio session — 2000×1250</text>
+</svg>
