@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" width="1200" height="120" role="img" aria-label="Footer decorative wave">
+  <defs>
+    <linearGradient id="fd" x1="0" x2="1"><stop offset="0%" stop-color="#fff7f7"/><stop offset="100%" stop-color="#f6fffe"/></linearGradient>
+  </defs>
+  <rect width="1200" height="120" fill="url(#fd)"/>
+  <path d="M0,40 C200,100 400,0 600,40 C800,80 1000,0 1200,40 L1200,0 L0,0 Z" fill="#fff" opacity="0.95"/>
+</svg>

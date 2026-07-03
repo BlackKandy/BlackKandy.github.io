@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Black Kandy logo">
-  <rect width="200" height="200" rx="20" fill="#0ea5a0" />
-  <text x="50%" y="56%" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="36">BK</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80" role="img" aria-label="Black Kandy logo">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0ea5a0"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="12" fill="none"/>
+  <!-- camera + music note mark -->
+  <g transform="translate(10,8)">
+    <rect x="0" y="8" width="56" height="44" rx="8" fill="#0f172a" opacity="0.95" />
+    <circle cx="28" cy="30" r="14" fill="url(#lg)" />
+    <rect x="44" y="18" width="8" height="6" rx="2" fill="#0f172a" transform="rotate(20 48 21)"/>
+    <!-- music note -->
+    <path d="M90 18 v28 a6 6 0 1 0 8 0 v-20 l18 -6 v-6" fill="none" stroke="#0f172a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <text x="140" y="50" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="28">Black Kandy</text>
 </svg>

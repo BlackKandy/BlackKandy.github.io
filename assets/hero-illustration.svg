@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Hero illustration - studio">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#fffaf9"/></linearGradient>
+    <linearGradient id="b" x1="0" x2="1"><stop offset="0%" stop-color="#0ea5a0"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#a)" />
+  <!-- soft stage light circle -->
+  <circle cx="920" cy="180" r="140" fill="#ff6b6b" opacity="0.08" />
+  <!-- camera/monitor on left -->
+  <g transform="translate(80,160)">
+    <rect x="0" y="0" width="480" height="360" rx="14" fill="#ffffff" stroke="#eef2f4" />
+    <rect x="36" y="36" width="200" height="288" rx="10" fill="#f8fafb" stroke="#e9eef0" />
+    <rect x="260" y="60" width="160" height="64" rx="8" fill="url(#b)" opacity="0.06" />
+    <circle cx="120" cy="180" r="46" fill="url(#b)" opacity="0.14"/>
+  </g>
+  <!-- mixing desk on right -->
+  <g transform="translate(600,320)">
+    <rect x="0" y="0" width="480" height="200" rx="10" fill="#ffffff" stroke="#eef2f4" />
+    <rect x="16" y="16" width="448" height="168" rx="8" fill="#f8fafb"/>
+    <!-- faders -->
+    <g fill="#e6eef0">
+      <rect x="40" y="40" width="12" height="96" rx="4" />
+      <rect x="80" y="32" width="12" height="120" rx="4" />
+      <rect x="120" y="48" width="12" height="80" rx="4" />
+      <rect x="160" y="28" width="12" height="120" rx="4" />
+    </g>
+    <!-- knobs -->
+    <g transform="translate(320,24)" fill="#ff6b6b" opacity="0.12">
+      <circle cx="12" cy="12" r="10"/>
+      <circle cx="48" cy="12" r="10"/>
+      <circle cx="84" cy="12" r="10"/>
+    </g>
+  </g>
+  <!-- tagline -->
+  <text x="120" y="700" fill="#6b7280" font-family="Inter, Arial, sans-serif" font-size="20">Photography • Videography • Music Production</text>
+</svg>

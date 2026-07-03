@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="BK icon">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1"><stop offset="0%" stop-color="#0ea5a0"/><stop offset="100%" stop-color="#ff6b6b"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#g2)" />
+  <text x="32" y="40" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="26" text-anchor="middle" fill="#fff">BK</text>
+</svg>
